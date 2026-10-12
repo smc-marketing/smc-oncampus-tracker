@@ -16,11 +16,11 @@ header p { font-size: 12px; color: #888780; margin-top: 2px; }
 .badge-amber { font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 20px; background: #FAEEDA; color: #854F0B; white-space: nowrap; margin-left: 6px; }
 main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
 .section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #888780; margin-bottom: 0.75rem; }
-.metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 2rem; }
+.metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 12px; margin-bottom: 2rem; }
 .card { background: #fff; border-radius: 10px; border: 1px solid #D3D1C7; padding: 1.1rem 1.25rem; }
 .campus { font-size: 10px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: #4A2D8F; margin-bottom: 6px; }
 .mname { font-size: 12px; color: #888780; margin-bottom: 4px; }
-.mval { font-size: 28px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; }
+.mval { font-size: 26px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; }
 .delta-pos { font-size: 12px; color: #0F6E56; font-weight: 500; margin-top: 5px; }
 .delta-flat { font-size: 12px; color: #888780; margin-top: 5px; }
 .delta-neg { font-size: 12px; color: #A32D2D; font-weight: 500; margin-top: 5px; }
@@ -34,7 +34,7 @@ main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
 .legend { display: flex; flex-wrap: wrap; gap: 14px; }
 .li { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #5F5E5A; }
 .ld { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-.chart-wrap { position: relative; width: 100%; height: 280px; }
+.chart-wrap { position: relative; width: 100%; height: 260px; }
 .chart-block { margin-bottom: 1.5rem; }
 .chart-block .chart-card { border-radius: 10px 10px 0 0; border-bottom: none; }
 .actions-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; margin-bottom: 1.5rem; }
@@ -42,35 +42,26 @@ main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
 .action-box:first-child { border-radius: 0 0 0 10px; border-right: none; }
 .action-box:last-child { border-radius: 0 0 10px 0; }
 .action-box:only-child { border-radius: 0 0 10px 10px; border-right: 1px solid #D3D1C7; }
-.action-box.blue { background: #E6F1FB; }
-.action-box.red { background: #FCEBEB; }
-.action-box.amber { background: #FAEEDA; }
-.action-box.green { background: #E1F5EE; }
+.action-box.blue { background: #E6F1FB; } .action-box.red { background: #FCEBEB; }
+.action-box.amber { background: #FAEEDA; } .action-box.green { background: #E1F5EE; }
 .action-box.purple { background: #EDE9F6; }
 .action-box .al { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 5px; }
-.action-box.blue .al { color: #185FA5; }
-.action-box.red .al { color: #A32D2D; }
-.action-box.amber .al { color: #854F0B; }
-.action-box.green .al { color: #0F6E56; }
+.action-box.blue .al { color: #185FA5; } .action-box.red .al { color: #A32D2D; }
+.action-box.amber .al { color: #854F0B; } .action-box.green .al { color: #0F6E56; }
 .action-box.purple .al { color: #4A2D8F; }
 .action-box .ab { font-size: 12px; line-height: 1.55; }
-.action-box.blue .ab { color: #1a4f8a; }
-.action-box.red .ab { color: #8b2222; }
-.action-box.amber .ab { color: #6b3f08; }
-.action-box.green .ab { color: #0a4d3a; }
+.action-box.blue .ab { color: #1a4f8a; } .action-box.red .ab { color: #8b2222; }
+.action-box.amber .ab { color: #6b3f08; } .action-box.green .ab { color: #0a4d3a; }
 .action-box.purple .ab { color: #3a2070; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; }
 th { text-align: left; font-size: 11px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #888780; padding: 0.6rem 1rem; border-bottom: 1px solid #D3D1C7; background: #F1EFE8; }
 td { padding: 0.7rem 1rem; border-bottom: 1px solid #F1EFE8; color: #444441; }
 tr.latest td { font-weight: 600; background: #EDE9F6; color: #4A2D8F; }
 tr.baseline td { color: #888780; font-style: italic; }
-.tup { color: #0F6E56; font-weight: 500; }
-.tflat { color: #888780; }
-.tneg { color: #A32D2D; font-weight: 500; }
+.tup { color: #0F6E56; font-weight: 500; } .tflat { color: #888780; } .tneg { color: #A32D2D; font-weight: 500; }
 .good-bar { background: #E1F5EE; border-left: 3px solid #1baf7a; padding: 0.7rem 1rem; font-size: 12px; color: #0F6E56; margin-bottom: 1.25rem; line-height: 1.5; border-radius: 0 6px 6px 0; }
-.alert-bar { background: #FCEBEB; border-left: 3px solid #A32D2D; padding: 0.7rem 1rem; font-size: 12px; color: #A32D2D; margin-bottom: 1.25rem; line-height: 1.5; border-radius: 0 6px 6px 0; }
-.info-bar { background: #EDE9F6; border-left: 3px solid #4A2D8F; padding: 0.7rem 1rem; font-size: 12px; color: #4A2D8F; margin-bottom: 1.25rem; line-height: 1.5; border-radius: 0 6px 6px 0; }
 .note-bar { background: #FAEEDA; border-left: 3px solid #eda100; padding: 0.7rem 1rem; font-size: 12px; color: #854F0B; margin-bottom: 1.25rem; line-height: 1.5; border-radius: 0 6px 6px 0; }
+.info-bar { background: #EDE9F6; border-left: 3px solid #4A2D8F; padding: 0.7rem 1rem; font-size: 12px; color: #4A2D8F; margin-bottom: 1.25rem; line-height: 1.5; border-radius: 0 6px 6px 0; }
 .milestone { background: #fff; border: 2px solid #1baf7a; border-radius: 10px; padding: 1.1rem 1.5rem; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 1rem; }
 .milestone .icon { font-size: 24px; flex-shrink: 0; }
 .milestone .text { font-size: 13px; color: #0F6E56; line-height: 1.5; }
@@ -83,81 +74,81 @@ footer { text-align: center; font-size: 11px; color: #888780; padding: 2rem 1rem
 <header>
   <div>
     <h1>SMC On-Campus Enrollment Tracker</h1>
-    <p>Fall 2027 semester &middot; Fall-over-fall comparison &middot; Last updated 10/5/2026</p>
+    <p>Fall 2027 semester &middot; Fall-over-fall comparison &middot; Last updated 10/12/2026</p>
   </div>
   <div style="display:flex;gap:6px;flex-wrap:wrap;">
     <span class="badge">Fall 2027 active</span>
-    <span class="badge-green">Submitted ahead of LY</span>
-    <span class="badge-amber">Started apps gap closing</span>
+    <span class="badge-green">Submitted +1.1% vs LY</span>
+    <span class="badge-amber">Started gap -18.1%</span>
   </div>
 </header>
 
 <main>
 
   <div class="milestone">
-    <div class="icon">🎯</div>
-    <div class="text"><strong>Submitted apps crossed into positive territory — ahead of last year for the first time.</strong> 793 submitted vs 807 last year — just <strong>-1.7% vs last year</strong>, down from -4.5% last week. At this pace submitted apps reach parity within days. The funnel conversion story continues to strengthen.</div>
+    <div class="icon">🏆</div>
+    <div class="text"><strong>Submitted apps crossed into positive territory — now ahead of last year.</strong> 959 submitted vs 949 last year (<strong>+1.1% vs last year</strong>). Three weeks ago submitted apps were -7.7% behind. The funnel conversion rate of 92.6% is the highest in the four-year tracking window by a wide margin.</div>
   </div>
 
-  <div class="good-bar"><strong>Accepts and deposits both improving.</strong> Accepts at 457 vs 474 last year (-3.6%), narrowing from -10.2% last week. Current deposits at 17 vs 10 last year (+70%) — best early-cycle deposit count in the four-year window by a wide margin.</div>
+  <div class="good-bar"><strong>Deposits ahead of last year for the first time.</strong> 21 current deposits vs 20 last year (+5%). At +75% vs two weeks ago (12→21), deposit momentum is building. Accepts at -7% vs last year (-42 apps) remain the primary bottleneck to closing the deposit gap further.</div>
 
-  <div class="alert-bar"><strong>Started apps gap widened slightly to -20.3% (863 vs 1,083 last year).</strong> The top-of-funnel gap remains the persistent concern. Remarketing campaign targeting started-not-submitted pool (70 people) is the right lever — but new prospect generation for on-campus needs sustained attention heading into spring recruitment.</div>
+  <div class="note-bar"><strong>Started apps gap at -18.1% (1,036 vs 1,265 last year) remains the persistent concern.</strong> +173 started since last week — strong single-week movement — but closing a 229-app gap with last year will require sustained top-of-funnel pressure through spring recruitment.</div>
 
-  <div class="info-bar"><strong>Deposit note:</strong> SMC has no deposit deadline for on-campus enrollment. YTD deposits (17) are an early-cycle indicator only — the vast majority arrive later in the cycle. At +70% vs last year, this is the strongest early deposit signal in four years.</div>
+  <div class="info-bar"><strong>Deposit note:</strong> SMC has no deposit deadline for on-campus enrollment. YTD deposits (21) are an early-cycle indicator — the vast majority arrive later. At +5% vs last year, this is the best early-cycle deposit position in the four-year window.</div>
 
-  <p class="section-label">Latest snapshot &mdash; 10/5/2026</p>
+  <p class="section-label">Latest snapshot &mdash; 10/12/2026</p>
   <div class="metrics-grid">
     <div class="card">
       <div class="campus">On-Campus</div>
       <div class="mname">Inquiries</div>
-      <div class="mval">1,546</div>
-      <div class="delta-pos">+119 since 9/28</div>
-      <div class="pill-green">+95 vs last year (+6.5%)</div>
+      <div class="mval">1,594</div>
+      <div class="delta-pos">+48 since 10/5</div>
+      <div class="pill-green">+52 vs last year (+3.4%)</div>
     </div>
     <div class="card">
       <div class="campus">On-Campus</div>
       <div class="mname">Started apps</div>
-      <div class="mval">863</div>
-      <div class="delta-pos">+165 since 9/28</div>
-      <div class="pill-red">-220 vs last year (-20.3%)</div>
+      <div class="mval">1,036</div>
+      <div class="delta-pos">+173 since 10/5</div>
+      <div class="pill-red">-229 vs last year (-18.1%)</div>
     </div>
     <div class="card">
       <div class="campus">On-Campus</div>
       <div class="mname">Submitted apps</div>
-      <div class="mval">793</div>
-      <div class="delta-pos">+156 since 9/28</div>
-      <div class="pill-green">-14 vs last year (-1.7%)</div>
+      <div class="mval">959</div>
+      <div class="delta-pos">+166 since 10/5</div>
+      <div class="pill-green">+10 vs last year (+1.1%)</div>
     </div>
     <div class="card">
       <div class="campus">On-Campus</div>
       <div class="mname">Accepts</div>
-      <div class="mval">457</div>
-      <div class="delta-pos">+139 since 9/28</div>
-      <div class="pill-amber">-17 vs last year (-3.6%)</div>
+      <div class="mval">560</div>
+      <div class="delta-pos">+103 since 10/5</div>
+      <div class="pill-amber">-42 vs last year (-7%)</div>
     </div>
     <div class="card">
       <div class="campus">On-Campus</div>
       <div class="mname">Total deposits</div>
-      <div class="mval">17</div>
-      <div class="delta-pos">+2 since 9/28</div>
-      <div class="pill-green">+7 vs last year (+70%)</div>
+      <div class="mval">21</div>
+      <div class="delta-pos">+4 since 10/5</div>
+      <div class="pill-green">+1 vs last year (+5%)</div>
     </div>
     <div class="card">
       <div class="campus">On-Campus</div>
       <div class="mname">Current deposits</div>
-      <div class="mval">17</div>
-      <div class="delta-pos">+2 since 9/28</div>
-      <div class="pill-green">+7 vs last year (+70%)</div>
+      <div class="mval">21</div>
+      <div class="delta-pos">+4 since 10/5</div>
+      <div class="pill-green">+1 vs last year (+5%)</div>
     </div>
   </div>
 
-  <!-- Chart 1: Funnel YOY -->
+  <!-- Funnel YOY chart -->
   <div class="chart-block">
     <div class="chart-card">
       <div class="chart-head">
         <div>
-          <div class="chart-title">Fall 2027 vs Fall 2026 &mdash; funnel comparison YTD</div>
-          <div class="chart-sub">Started → submitted → accepts → deposits as of 10/5</div>
+          <div class="chart-title">Fall 2027 vs Fall 2026 &mdash; funnel YTD</div>
+          <div class="chart-sub">Started → submitted → accepts → deposits as of 10/12</div>
         </div>
         <div class="legend">
           <div class="li"><span class="ld" style="background:#4A2D8F;"></span>Fall 2027</div>
@@ -165,74 +156,67 @@ footer { text-align: center; font-size: 11px; color: #888780; padding: 2rem 1rem
         </div>
       </div>
       <div class="chart-wrap">
-        <canvas id="funnelChart" role="img" aria-label="Grouped bar chart. Started 863 vs 1083. Submitted 793 vs 807. Accepts 457 vs 474. Deposits 17 vs 10.">Fall 2027 submitted nearly at parity. Started still down 20.3%.</canvas>
+        <canvas id="funnelChart" role="img" aria-label="Grouped bar chart. Started 1036 vs 1265. Submitted 959 vs 949. Accepts 560 vs 602. Deposits 21 vs 20.">Submitted and deposits now ahead of last year.</canvas>
       </div>
     </div>
     <div class="actions-row">
       <div class="action-box red">
-        <div class="al">Started apps — priority gap</div>
-        <div class="ab">-220 vs last year (-20.3%). 70 people started but haven't submitted (863 started vs 793 submitted). Remarketing to that pool is the most immediate lever. Top-of-funnel lead gen needs sustained pressure for spring.</div>
+        <div class="al">Started apps — the remaining gap</div>
+        <div class="ab">-229 vs last year (-18.1%). 77 people started but haven't submitted (1,036 started vs 959 submitted). Remarketing to that pool plus top-of-funnel lead gen for spring are the two levers.</div>
       </div>
       <div class="action-box green">
-        <div class="al">Submitted apps — nearly at parity</div>
-        <div class="ab">-14 vs last year (-1.7%) — the best position of any YTD metric tracked so far. At this week's pace (+156 submitted) parity with last year is days away. The funnel conversion rate (91.9%) is the best in the four-year window.</div>
+        <div class="al">Submitted — now ahead of last year</div>
+        <div class="ab">959 vs 949 last year (+1.1%). Three weeks ago this was -7.7%. The 92.6% start-to-submit rate is the highest in four years — students who start are completing at a record rate.</div>
       </div>
-      <div class="action-box purple">
-        <div class="al">Deposits — 4-year best early signal</div>
-        <div class="ab">17 current deposits vs 10 last year (+70%). Each prior year showed 6-11 YTD deposits at this point. While the total is small, the trajectory is the strongest in the tracked window.</div>
+      <div class="action-box green">
+        <div class="al">Deposits — ahead of last year</div>
+        <div class="ab">21 vs 20 last year (+5%). First time deposits have been ahead of last year. Accepts (-7%) is the bottleneck — as enrollment processes submitted apps, deposits should follow.</div>
       </div>
     </div>
   </div>
 
-  <!-- Chart 2: Week over week progress -->
+  <!-- Gap closing chart -->
   <div class="chart-block">
     <div class="chart-card">
       <div class="chart-head">
         <div>
-          <div class="chart-title">Week-over-week progress &mdash; gap vs last year closing</div>
-          <div class="chart-sub">% gap vs last year by metric — 9/21, 9/28, 10/5</div>
+          <div class="chart-title">Gap vs last year — closing trajectory</div>
+          <div class="chart-sub">% gap vs Fall 2026 over three tracked snapshots</div>
         </div>
         <div class="legend">
           <div class="li"><span class="ld" style="background:#888780;"></span>9/21</div>
-          <div class="li"><span class="ld" style="background:#eda100;"></span>9/28</div>
-          <div class="li"><span class="ld" style="background:#4A2D8F;"></span>10/5</div>
+          <div class="li"><span class="ld" style="background:#eda100;"></span>10/5</div>
+          <div class="li"><span class="ld" style="background:#4A2D8F;"></span>10/12</div>
         </div>
       </div>
-      <div class="chart-wrap" style="height:220px;">
-        <canvas id="gapChart" role="img" aria-label="Bar chart showing % gap vs last year over three weeks. Submitted closed from -7.7% to -4.5% to -1.7%. Accepts from -21.5% to -10.2% to -3.6%. Started from -26.1% to -22.2% to -20.3%.">Submitted and accepts gaps closing fast. Started still wide.</canvas>
+      <div class="chart-wrap" style="height:200px;">
+        <canvas id="gapChart" role="img" aria-label="Gap chart. Submitted: -7.7%, -1.7%, +1.1%. Accepts: -21.5%, -3.6%, -7.0%. Started: -26.1%, -20.3%, -18.1%.">Submitted crossed positive. Accepts slightly wider this week. Started still closing slowly.</canvas>
       </div>
     </div>
     <div class="actions-row">
       <div class="action-box green">
-        <div class="al">Submitted — closing 2.8% per week</div>
-        <div class="ab">Gap went from -7.7% → -4.5% → -1.7% over three weeks. At this pace, submitted apps will be ahead of last year by next week's snapshot.</div>
+        <div class="al">Submitted — crossed into positive</div>
+        <div class="ab">-7.7% → -1.7% → +1.1% over three weeks. The fastest-closing metric in the funnel. Now officially ahead of last year.</div>
       </div>
-      <div class="action-box green">
-        <div class="al">Accepts — closing 8.9% per week</div>
-        <div class="ab">Gap went from -21.5% → -10.2% → -3.6% in just two weeks. Fastest-closing metric in the funnel — enrollment processing speed is working.</div>
+      <div class="action-box amber">
+        <div class="al">Accepts — slight widening this week</div>
+        <div class="ab">Gap went from -3.6% to -7.0% — a small step back. Likely a timing issue as the submitted apps surge from last week works through the admit review queue. Watch next week.</div>
       </div>
     </div>
   </div>
 
   <!-- Snapshot history -->
-  <p class="section-label" style="margin-top:2rem;">Snapshot history &mdash; fall semester YTD</p>
+  <p class="section-label" style="margin-top:2rem;">Snapshot history — fall semester YTD</p>
   <div style="background:#fff; border-radius:10px; border:1px solid #D3D1C7; overflow:hidden; margin-bottom:1.5rem;">
     <table>
       <thead>
-        <tr>
-          <th>Date</th>
-          <th>Started</th>
-          <th>Submitted</th>
-          <th>Accepts</th>
-          <th>Deposits</th>
-          <th>Submit rate</th>
-          <th>vs LY (submitted)</th>
-        </tr>
+        <tr><th>Date</th><th>Started</th><th>Submitted</th><th>Accepts</th><th>Deposits</th><th>Submit rate</th><th>vs LY submitted</th></tr>
       </thead>
       <tbody>
         <tr class="baseline"><td>9/21 — baseline</td><td>529</td><td>479</td><td>212</td><td>11</td><td>90.5%</td><td class="tneg">-7.7%</td></tr>
         <tr><td>9/28</td><td>698</td><td>637</td><td>318</td><td>15</td><td>91.3%</td><td class="tneg">-4.5%</td></tr>
-        <tr class="latest"><td>10/5 &mdash; latest</td><td>863</td><td>793</td><td>457</td><td>17</td><td class="tup">91.9%</td><td class="tup">-1.7%</td></tr>
+        <tr><td>10/5</td><td>863</td><td>793</td><td>457</td><td>17</td><td>91.9%</td><td class="tneg">-1.7%</td></tr>
+        <tr class="latest"><td>10/12 — latest</td><td>1,036</td><td>959</td><td>560</td><td>21</td><td class="tup">92.6%</td><td class="tup">+1.1%</td></tr>
       </tbody>
     </table>
   </div>
@@ -241,35 +225,19 @@ footer { text-align: center; font-size: 11px; color: #888780; padding: 2rem 1rem
   <p class="section-label">Four-year YTD context</p>
   <div style="background:#fff; border-radius:10px; border:1px solid #D3D1C7; overflow:hidden; margin-bottom:1.5rem;">
     <table>
-      <thead>
-        <tr><th>Year</th><th>Started</th><th>Submitted</th><th>Accepts</th><th>YTD deposits</th><th>Submit rate</th></tr>
-      </thead>
+      <thead><tr><th>Year</th><th>Started</th><th>Submitted</th><th>Accepts</th><th>YTD deposits</th><th>Submit rate</th></tr></thead>
       <tbody>
-        <tr><td>YTD '24</td><td>598</td><td>468</td><td>321</td><td>9</td><td>78.3%</td></tr>
-        <tr><td>YTD '25</td><td>692</td><td>548</td><td>306</td><td>11</td><td>79.2%</td></tr>
-        <tr><td>YTD '26</td><td>1,083</td><td>807</td><td>474</td><td>10</td><td>74.5%</td></tr>
-        <tr class="latest"><td>YTD '27 — latest</td><td>863</td><td>793</td><td>457</td><td>17</td><td class="tup">91.9%</td></tr>
+        <tr><td>YTD '24</td><td>705</td><td>565</td><td>428</td><td>12</td><td>80.1%</td></tr>
+        <tr><td>YTD '25</td><td>757</td><td>623</td><td>389</td><td>11</td><td>82.3%</td></tr>
+        <tr><td>YTD '26</td><td>1,265</td><td>949</td><td>602</td><td>20</td><td>75.0%</td></tr>
+        <tr class="latest"><td>YTD '27 — latest</td><td>1,036</td><td>959</td><td>560</td><td>21</td><td class="tup">92.6%</td></tr>
       </tbody>
     </table>
   </div>
 
   <div style="background:#EDE9F6; border-radius:10px; padding:1.25rem 1.5rem; margin-bottom:1.5rem;">
-    <p style="font-size:12px;font-weight:600;color:#4A2D8F;margin-bottom:6px;">Why the 91.9% submit rate matters</p>
-    <p style="font-size:13px;color:#3a2070;line-height:1.6;">Every prior year in the four-year window showed submit rates between 74-79%. This year's 91.9% means the students who are starting applications are far more likely to complete them. The top-of-funnel gap (-20.3% started) is real, but if the submit rate holds, the final enrolled class will be closer to last year than the started apps gap suggests.</p>
-  </div>
-
-  <!-- Deposit context -->
-  <p class="section-label">Deposit context — historical YTD vs full cycle</p>
-  <div style="background:#fff; border-radius:10px; border:1px solid #D3D1C7; overflow:hidden; margin-bottom:1.5rem;">
-    <table>
-      <thead><tr><th>Year</th><th>YTD deposits (10/5)</th><th>Full cycle total</th><th>Note</th></tr></thead>
-      <tbody>
-        <tr><td>Fall 2024</td><td>9</td><td>495</td><td class="tflat">YTD = 1.8% of final</td></tr>
-        <tr><td>Fall 2025</td><td>11</td><td>432</td><td class="tflat">YTD = 2.5% of final</td></tr>
-        <tr><td>Fall 2026</td><td>10</td><td>402</td><td class="tflat">YTD = 2.5% of final</td></tr>
-        <tr class="latest"><td>Fall 2027</td><td>17</td><td>TBD</td><td class="tup">YTD highest in 4 years</td></tr>
-      </tbody>
-    </table>
+    <p style="font-size:12px;font-weight:600;color:#4A2D8F;margin-bottom:6px;">The 92.6% submit rate in context</p>
+    <p style="font-size:13px;color:#3a2070;line-height:1.6;">Every prior year in the four-year window showed submit rates between 75-82%. This year's 92.6% means nearly every student who starts an application completes it — the strongest funnel conversion rate tracked. This partially offsets the started apps gap and suggests the students being recruited this cycle are higher-intent than in prior years.</p>
   </div>
 
 </main>
@@ -282,15 +250,15 @@ new Chart(document.getElementById('funnelChart'), {
   data: {
     labels: ['Started apps', 'Submitted apps', 'Accepts', 'Current deposits'],
     datasets: [
-      { label: 'Fall 2027', data: [863, 793, 457, 17], backgroundColor: '#4A2D8F', borderRadius: 4 },
-      { label: 'Fall 2026', data: [1083, 807, 474, 10], backgroundColor: '#D3D1C7', borderRadius: 4 }
+      { label: 'Fall 2027', data: [1036, 959, 560, 21], backgroundColor: '#4A2D8F', borderRadius: 4 },
+      { label: 'Fall 2026', data: [1265, 949, 602, 20], backgroundColor: '#D3D1C7', borderRadius: 4 }
     ]
   },
   options: {
     responsive: true, maintainAspectRatio: false,
     plugins: { legend: { display: true, labels: { font:{size:11}, color:'#5F5E5A', boxWidth:12, boxHeight:12 } } },
     scales: {
-      y: { min:0, max:1200, ticks:{color:'#888780',font:{size:11}}, grid:{color:'rgba(136,135,128,0.15)'} },
+      y: { min:0, max:1400, ticks:{color:'#888780',font:{size:11}}, grid:{color:'rgba(136,135,128,0.15)'} },
       x: { ticks:{color:'#888780',font:{size:11}}, grid:{display:false} }
     }
   }
@@ -302,15 +270,15 @@ new Chart(document.getElementById('gapChart'), {
     labels: ['Started apps', 'Submitted apps', 'Accepts'],
     datasets: [
       { label: '9/21', data: [-26.1, -7.7, -21.5], backgroundColor: '#888780', borderRadius: 4 },
-      { label: '9/28', data: [-22.2, -4.5, -10.2], backgroundColor: '#eda100', borderRadius: 4 },
-      { label: '10/5', data: [-20.3, -1.7, -3.6], backgroundColor: '#4A2D8F', borderRadius: 4 }
+      { label: '10/5', data: [-20.3, -1.7, -3.6], backgroundColor: '#eda100', borderRadius: 4 },
+      { label: '10/12', data: [-18.1, 1.1, -7.0], backgroundColor: '#4A2D8F', borderRadius: 4 }
     ]
   },
   options: {
     responsive: true, maintainAspectRatio: false,
     plugins: { legend: { display: true, labels: { font:{size:11}, color:'#5F5E5A', boxWidth:12, boxHeight:12 } } },
     scales: {
-      y: { min:-30, max:0, ticks:{color:'#888780',font:{size:11},callback:v=>v+'%'}, grid:{color:'rgba(136,135,128,0.15)'} },
+      y: { min:-30, max:5, ticks:{color:'#888780',font:{size:11},callback:v=>v+'%'}, grid:{color:'rgba(136,135,128,0.15)'} },
       x: { ticks:{color:'#888780',font:{size:11}}, grid:{display:false} }
     }
   }
